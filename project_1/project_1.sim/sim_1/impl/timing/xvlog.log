@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.sim/sim_1/impl/timing/microprocessor_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-311] analyzing module instr_decode
+INFO: [VRFC 10-311] analyzing module instr_fetch
+INFO: [VRFC 10-311] analyzing module mem_stage
+INFO: [VRFC 10-311] analyzing module microprocessor
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-311] analyzing module wb_stage
+INFO: [VRFC 10-311] analyzing module glbl

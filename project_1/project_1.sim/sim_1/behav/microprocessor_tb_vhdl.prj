@@ -1,0 +1,28 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../../sources/ALU.vhd"
+vhdl xil_defaultlib  "../../../../sources/adder.vhd"
+vhdl xil_defaultlib  "../../../../sources/andN.vhd"
+vhdl xil_defaultlib  "../../../../sources/data_mem.vhd"
+vhdl xil_defaultlib  "../../../../sources/execute.vhd"
+vhdl xil_defaultlib  "../../../../sources/fa.vhd"
+vhdl xil_defaultlib  "../../../../sources/instr_decode.vhd"
+vhdl xil_defaultlib  "../../../../sources/instr_fetch.vhd"
+vhdl xil_defaultlib  "../../../../sources/instr_mem.vhd"
+vhdl xil_defaultlib  "../../../../sources/mem_stage.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/microprocessor.vhd"
+vhdl xil_defaultlib  "../../../../sources/multiU.vhd"
+vhdl xil_defaultlib  "../../../../sources/mux.vhd"
+vhdl xil_defaultlib  "../../../../sources/orN.vhd"
+vhdl xil_defaultlib  "../../../../sources/pc_reg.vhd"
+vhdl xil_defaultlib  "../../../../sources/register_file.vhd"
+vhdl xil_defaultlib  "../../../../sources/ripplecarry_fa.vhd"
+vhdl xil_defaultlib  "../../../../sources/sllN.vhd"
+vhdl xil_defaultlib  "../../../../sources/sraN.vhd"
+vhdl xil_defaultlib  "../../../../sources/srlN.vhd"
+vhdl xil_defaultlib  "../../../../sources/wb_stage.vhd"
+vhdl xil_defaultlib  "../../../../sources/xorN.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/microprocessor_tb.vhd"
+
+# Do not sort compile order
+nosort

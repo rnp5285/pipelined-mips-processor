@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="microprocessor_tb_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="microprocessor_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="413363666fs"></ZoomStartTime>
+      <ZoomEndTime time="2913363667fs"></ZoomEndTime>
+      <Cursor1Time time="2496697000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/microprocessor_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor_tb/delay" type="other">
+      <obj_property name="ElementShortName">delay</obj_property>
+      <obj_property name="ObjectShortName">delay</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1185">
+   </wvobject>
+   <wvobject type="divider" fp_name="divider168">
+   </wvobject>
+   <wvobject fp_name="/microprocessor_tb/mipsy/writebackstage/MemRd" type="logic">
+      <obj_property name="ElementShortName">MemRd</obj_property>
+      <obj_property name="ObjectShortName">MemRd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor_tb/mipsy/your_instance_name/clk_out1" type="logic">
+      <obj_property name="ElementShortName">clk_out1</obj_property>
+      <obj_property name="ObjectShortName">clk_out1</obj_property>
+   </wvobject>
+</wave_config>

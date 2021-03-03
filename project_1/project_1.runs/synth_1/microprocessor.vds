@@ -1,0 +1,841 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Apr 29 15:41:37 2019
+# Process ID: 23048
+# Current directory: C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log microprocessor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source microprocessor.tcl
+# Log file: C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.runs/synth_1/microprocessor.vds
+# Journal file: C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source microprocessor.tcl -notrace
+Command: synth_design -top microprocessor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t-cpg236'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t-cpg236'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16236 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 341.523 ; gain = 79.418
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'microprocessor' [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:42]
+INFO: [Synth 8-3491] module 'clk_wiz_1' declared at 'c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v:70' bound to instance 'your_instance_name' of component 'clk_wiz_1' [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_1' [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v:70]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_1_clk_wiz' [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:68]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14470]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14470]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 49.875000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 16.625000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 5 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_1_clk_wiz' (4#1) [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v:68]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_1' (5#1) [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v:70]
+INFO: [Synth 8-3491] module 'instr_fetch' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/instr_fetch.vhd:17' bound to instance 'fetchstage' of component 'instr_fetch' [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'instr_fetch' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_fetch.vhd:26]
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/mux.vhd:34' bound to instance 'mux_comp' of component 'mux' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_fetch.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/rohan/Documents/dsd2/proj1/sources/mux.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'mux' (6#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/mux.vhd:43]
+INFO: [Synth 8-3491] module 'pc_reg' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/pc_reg.vhd:17' bound to instance 'pc_reg_comp' of component 'pc_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_fetch.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'pc_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/pc_reg.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'pc_reg' (7#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/pc_reg.vhd:25]
+INFO: [Synth 8-3491] module 'adder' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/adder.vhd:19' bound to instance 'adder_comp' of component 'adder' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_fetch.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/rohan/Documents/dsd2/proj1/sources/adder.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'adder' (8#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/adder.vhd:26]
+INFO: [Synth 8-3491] module 'instr_mem' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/instr_mem.vhd:19' bound to instance 'instr_mem_comp' of component 'instr_mem' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_fetch.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'instr_mem' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_mem.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'instr_mem' (9#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_mem.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'instr_fetch' (10#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_fetch.vhd:26]
+INFO: [Synth 8-3491] module 'instr_decode' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:18' bound to instance 'decodestage' of component 'instr_decode' [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'instr_decode' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:35]
+WARNING: [Synth 8-614] signal 'regDataA' is read in the process but is not in the sensitivity list [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:43]
+WARNING: [Synth 8-614] signal 'regDataB' is read in the process but is not in the sensitivity list [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'instr_decode' (11#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:35]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'execute' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/execute.vhd:34' bound to instance 'executestage' of component 'execute' [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:252]
+INFO: [Synth 8-638] synthesizing module 'execute' [C:/Users/rohan/Documents/dsd2/proj1/sources/execute.vhd:49]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'ALU' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:26' bound to instance 'alu_inst' of component 'ALU' [C:/Users/rohan/Documents/dsd2/proj1/sources/execute.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:36]
+	Parameter M bound to: 32 - type: integer 
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'ripplecarry_fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:15' bound to instance 'rcfs_comp' of component 'ripplecarry_fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'ripplecarry_fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'fa' (12#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:22]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'fa_inst' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'ripplecarry_fa' (13#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'ripplecarry_fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd:15' bound to instance 'rcfa_comp' of component 'ripplecarry_fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:131]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'andN' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/andN.vhd:15' bound to instance 'and_comp' of component 'andN' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'andN' [C:/Users/rohan/Documents/dsd2/proj1/sources/andN.vhd:22]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'andN' (14#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/andN.vhd:22]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'orN' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/orN.vhd:15' bound to instance 'or_comp' of component 'orN' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'orN' [C:/Users/rohan/Documents/dsd2/proj1/sources/orN.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'orN' (15#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/orN.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'xorN' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/xorN.vhd:15' bound to instance 'xor_comp' of component 'xorN' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'xorN' [C:/Users/rohan/Documents/dsd2/proj1/sources/xorN.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xorN' (16#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/xorN.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'sllN' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/sllN.vhd:17' bound to instance 'sll_comp' of component 'sllN' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'sllN' [C:/Users/rohan/Documents/dsd2/proj1/sources/sllN.vhd:25]
+	Parameter N bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element int_shamt_reg was removed.  [C:/Users/rohan/Documents/dsd2/proj1/sources/sllN.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'sllN' (17#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/sllN.vhd:25]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'sraN' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/sraN.vhd:17' bound to instance 'sra_comp' of component 'sraN' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'sraN' [C:/Users/rohan/Documents/dsd2/proj1/sources/sraN.vhd:25]
+	Parameter N bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element int_shamt_reg was removed.  [C:/Users/rohan/Documents/dsd2/proj1/sources/sraN.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'sraN' (18#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/sraN.vhd:25]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'srlN' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/srlN.vhd:17' bound to instance 'srl_comp' of component 'srlN' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'srlN' [C:/Users/rohan/Documents/dsd2/proj1/sources/srlN.vhd:25]
+	Parameter N bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element int_shamt_reg was removed.  [C:/Users/rohan/Documents/dsd2/proj1/sources/srlN.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'srlN' (19#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/srlN.vhd:25]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'multU' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:6' bound to instance 'mult_comp' of component 'multU' [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'multU' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:13]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'Addl' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:59]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:65]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:62]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'Addl' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:70]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:73]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'Addl' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:70]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:73]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'Addl' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:70]
+INFO: [Synth 8-3491] module 'fa' declared at 'C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd:15' bound to instance 'AddN' of component 'fa' [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:76]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'multU' (20#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (21#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'execute' (22#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/execute.vhd:49]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'mem_stage' [C:/Users/rohan/Documents/dsd2/proj1/sources/mem_stage.vhd:33]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 5 - type: integer 
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_space bound to: 10 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'data_mem' [C:/Users/rohan/Documents/dsd2/proj1/sources/data_mem.vhd:30]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_space bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'data_mem' (23#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/data_mem.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'mem_stage' (24#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/mem_stage.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'wb_stage' [C:/Users/rohan/Documents/dsd2/proj1/sources/wb_stage.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'wb_stage' (25#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/wb_stage.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'register_file' [C:/Users/rohan/Documents/dsd2/proj1/sources/register_file.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'register_file' (26#1) [C:/Users/rohan/Documents/dsd2/proj1/sources/register_file.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element s1jump_reg was removed.  [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:198]
+WARNING: [Synth 8-6014] Unused sequential element s1jumpAddr_reg was removed.  [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:200]
+INFO: [Synth 8-256] done synthesizing module 'microprocessor' (27#1) [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:42]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[27]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[26]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[25]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[24]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[23]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[22]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[21]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[20]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[19]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[18]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[17]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[16]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[15]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[14]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[13]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[12]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[11]
+WARNING: [Synth 8-3331] design instr_mem has unconnected port addr[10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 390.621 ; gain = 128.516
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 390.621 ; gain = 128.516
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_board.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_board.xdc] for cell 'your_instance_name/inst'
+Parsing XDC File [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc] for cell 'your_instance_name/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/microprocessor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/microprocessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/microprocessor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/microprocessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 695.590 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 695.590 ; gain = 433.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 695.590 ; gain = 433.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for your_instance_name/inst. (constraint file  C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.runs/synth_1/dont_touch.xdc, line 8).
+Applied set_property DONT_TOUCH = true for your_instance_name. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 695.590 ; gain = 433.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "Ojump" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "OregEnWb" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "valA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ORegIdxB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "OaluOP" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "reg_array_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_array_reg[31]" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'OjumpAddr_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:111]
+WARNING: [Synth 8-327] inferring latch for variable 'valA_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:51]
+WARNING: [Synth 8-327] inferring latch for variable 'valB_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:52]
+WARNING: [Synth 8-327] inferring latch for variable 'OaluOP_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:59]
+WARNING: [Synth 8-327] inferring latch for variable 'OregIdxA_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:53]
+WARNING: [Synth 8-327] inferring latch for variable 'ORegIdxB_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:54]
+WARNING: [Synth 8-327] inferring latch for variable 'oRegIdxWb_reg' [C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd:55]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 695.590 ; gain = 433.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 93    
+	   2 Input     28 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 608   
++---Registers : 
+	               32 Bit    Registers := 8     
+	               28 Bit    Registers := 4     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   2 Input     28 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 65    
+	   7 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module microprocessor 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 8     
+	               28 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
+Module mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     28 Bit        Muxes := 1     
+Module pc_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               28 Bit    Registers := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     28 Bit       Adders := 1     
+Module instr_decode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 2     
+Module fa 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module xorN 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module sllN 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 31    
+Module sraN 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 31    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module srlN 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 31    
+Module execute 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module wb_stage 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module register_file 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element s2IdExWbEn_reg was removed.  [C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd:233]
+INFO: [Synth 8-5587] ROM size for "decodestage/OaluOP" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-3886] merging instance 'decodestage/OjumpAddr_reg[1]' (LD) to 'decodestage/OjumpAddr_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\decodestage/OjumpAddr_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[14] )
+INFO: [Synth 8-3886] merging instance 'decodestage/OregIdxA_reg[4]' (LD) to 'decodestage/OregIdxA_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[15] )
+INFO: [Synth 8-3886] merging instance 'decodestage/ORegIdxB_reg[4]' (LD) to 'decodestage/ORegIdxB_reg[3]'
+INFO: [Synth 8-3886] merging instance 'decodestage/ORegIdxB_reg[3]' (LD) to 'decodestage/ORegIdxB_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s1instruction_reg[30] )
+INFO: [Synth 8-3886] merging instance 'decodestage/oRegIdxWb_reg[3]' (LD) to 'decodestage/oRegIdxWb_reg[4]'
+INFO: [Synth 8-3886] merging instance 'decodestage/oRegIdxWb_reg[4]' (LD) to 'decodestage/oRegIdxWb_reg[2]'
+INFO: [Synth 8-3886] merging instance 'decodestage/oRegIdxWb_reg[2]' (LD) to 'decodestage/OregIdxA_reg[3]'
+INFO: [Synth 8-3886] merging instance 's2IdExWbIdx_reg[3]' (FDC) to 's2IdExWbIdx_reg[2]'
+INFO: [Synth 8-3886] merging instance 's2IdExWbIdx_reg[4]' (FDC) to 's2IdExWbIdx_reg[2]'
+INFO: [Synth 8-3886] merging instance 's3ExMemWbIdx_reg[3]' (FDC) to 's3ExMemWbIdx_reg[4]'
+INFO: [Synth 8-3886] merging instance 's3ExMemWbIdx_reg[4]' (FDC) to 's3ExMemWbIdx_reg[2]'
+INFO: [Synth 8-3886] merging instance 's0jumpAddr_reg[1]' (FDE) to 's0jumpAddr_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\s0jumpAddr_reg[0] )
+INFO: [Synth 8-3886] merging instance 's4MemWbIdx_reg[3]' (FDC) to 's4MemWbIdx_reg[4]'
+INFO: [Synth 8-3886] merging instance 's4MemWbIdx_reg[4]' (FDC) to 's4MemWbIdx_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\decodestage/OregIdxA_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\decodestage/ORegIdxB_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[27]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[26]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[25]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[24]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[23]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[22]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[21]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[20]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[19]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[18]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[17]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[16]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[15]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[14]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[13]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[12]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[11]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[10]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/OjumpAddr_reg[0]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (decodestage/ORegIdxB_reg[2]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][31]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][30]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][29]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][28]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][27]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][26]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][25]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][24]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][23]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][22]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][21]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][20]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][19]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][18]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][17]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][16]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][15]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][14]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][13]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][12]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][11]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][10]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][9]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][8]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][7]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][6]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][5]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][4]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][3]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][2]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][1]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[4][0]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][31]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][30]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][29]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][28]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][27]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][26]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][25]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][24]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][23]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][22]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][21]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][20]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][19]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][18]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][17]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][16]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][15]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][14]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][13]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][12]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][11]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][10]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][9]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][8]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][7]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][6]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][5]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][4]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][3]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][2]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][1]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[5][0]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][31]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][30]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][29]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][28]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][27]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][26]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][25]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][24]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][23]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][22]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][21]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][20]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][19]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][18]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][17]) is unused and will be removed from module microprocessor.
+WARNING: [Synth 8-3332] Sequential element (regfile/reg_array_reg[6][16]) is unused and will be removed from module microprocessor.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 's1instruction_reg[6]' (FDC) to 's1instruction_reg[7]'
+INFO: [Synth 8-3886] merging instance 's1instruction_reg[11]' (FDC) to 's1instruction_reg[12]'
+INFO: [Synth 8-3886] merging instance 'decodestage/OjumpAddr_reg[8]' (LD) to 'decodestage/OjumpAddr_reg[9]'
+INFO: [Synth 8-3886] merging instance 's2jumpAddr_reg[8]' (FDC) to 's2jumpAddr_reg[9]'
+INFO: [Synth 8-3886] merging instance 's0jumpAddr_reg[8]' (FDE) to 's0jumpAddr_reg[9]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:01:01 . Memory (MB): peak = 695.590 ; gain = 433.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------+------------+---------------+----------------+
+|Module Name    | RTL Object | Depth x Width | Implemented As | 
++---------------+------------+---------------+----------------+
+|instr_mem      | p_0_out    | 1024x32       | LUT            | 
+|microprocessor | p_0_out    | 1024x32       | LUT            | 
++---------------+------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++---------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name    | RTL Object                            | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++---------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|microprocessor | memorystage/data_mem_comp/mip_mem_reg | 1 K x 32(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 1      | 
++---------------+---------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:16 . Memory (MB): peak = 724.957 ; gain = 462.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:18 . Memory (MB): peak = 729.969 ; gain = 467.863
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance memorystage/data_mem_comp/mip_mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:12 ; elapsed = 00:01:21 . Memory (MB): peak = 768.043 ; gain = 505.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:14 ; elapsed = 00:01:23 . Memory (MB): peak = 768.043 ; gain = 505.938
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:14 ; elapsed = 00:01:23 . Memory (MB): peak = 768.043 ; gain = 505.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:14 ; elapsed = 00:01:24 . Memory (MB): peak = 768.043 ; gain = 505.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:15 ; elapsed = 00:01:24 . Memory (MB): peak = 768.043 ; gain = 505.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:15 ; elapsed = 00:01:24 . Memory (MB): peak = 768.043 ; gain = 505.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:15 ; elapsed = 00:01:24 . Memory (MB): peak = 768.043 ; gain = 505.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     3|
+|2     |CARRY4     |  1146|
+|3     |LUT1       |  3033|
+|4     |LUT2       |  2412|
+|5     |LUT3       |   103|
+|6     |LUT4       |   188|
+|7     |LUT5       |   112|
+|8     |LUT6       |  1043|
+|9     |MMCME2_ADV |     1|
+|10    |MUXF7      |   198|
+|11    |MUXF8      |     8|
+|12    |RAMB36E1   |     1|
+|13    |XORCY      |    41|
+|14    |FDCE       |   324|
+|15    |FDRE       |    49|
+|16    |LD         |    82|
+|17    |IBUF       |     2|
+|18    |OBUF       |    32|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------------+------------------+------+
+|      |Instance             |Module            |Cells |
++------+---------------------+------------------+------+
+|1     |top                  |                  |  8778|
+|2     |  your_instance_name |clk_wiz_1         |     4|
+|3     |    inst             |clk_wiz_1_clk_wiz |     4|
+|4     |  memorystage        |mem_stage         |     1|
+|5     |    data_mem_comp    |data_mem          |     1|
+|6     |  decodestage        |instr_decode      |   101|
+|7     |  executestage       |execute           |  5879|
+|8     |    alu_inst         |ALU               |  1665|
+|9     |  fetchstage         |instr_fetch       |    64|
+|10    |    adder_comp       |adder             |     4|
+|11    |    mux_comp         |mux               |     8|
+|12    |    pc_reg_comp      |pc_reg            |    52|
+|13    |  regfile            |register_file     |   173|
+|14    |  writebackstage     |wb_stage          |    32|
++------+---------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:15 ; elapsed = 00:01:24 . Memory (MB): peak = 768.043 ; gain = 505.938
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1068 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:59 ; elapsed = 00:01:15 . Memory (MB): peak = 768.043 ; gain = 200.969
+Synthesis Optimization Complete : Time (s): cpu = 00:01:15 ; elapsed = 00:01:25 . Memory (MB): peak = 768.043 ; gain = 505.938
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1273 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 123 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 41 instances
+  LD => LDCE: 82 instances
+
+245 Infos, 133 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:31 . Memory (MB): peak = 768.043 ; gain = 507.563
+INFO: [Common 17-1381] The checkpoint 'C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.runs/synth_1/microprocessor.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 768.043 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 29 15:43:21 2019...

@@ -1,0 +1,49 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto bf012efcabd8415187872d9e023a8601 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot microprocessor_tb_behav xil_defaultlib.microprocessor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_unsigned
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9,1,1,1,4,1,7)\]
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkfbout_mult_f=9.12...]
+Compiling architecture structure of entity xil_defaultlib.clk_wiz_0_clk_wiz_0_clk_wiz [clk_wiz_0_clk_wiz_0_clk_wiz_defa...]
+Compiling architecture structure of entity xil_defaultlib.clk_wiz_0 [clk_wiz_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behav of entity xil_defaultlib.pc_reg [pc_reg_default]
+Compiling architecture behav of entity xil_defaultlib.adder [adder_default]
+Compiling architecture behav of entity xil_defaultlib.instr_mem [instr_mem_default]
+Compiling architecture structural of entity xil_defaultlib.instr_fetch [instr_fetch_default]
+Compiling architecture behav of entity xil_defaultlib.instr_decode [instr_decode_default]
+Compiling architecture dataflow of entity xil_defaultlib.fa [fa_default]
+Compiling architecture structural of entity xil_defaultlib.ripplecarry_fa [ripplecarry_fa_default]
+Compiling architecture dataflow of entity xil_defaultlib.andN [andn_default]
+Compiling architecture dataflow of entity xil_defaultlib.orN [orn_default]
+Compiling architecture dataflow of entity xil_defaultlib.xorN [xorn_default]
+Compiling architecture behavioral of entity xil_defaultlib.sllN [slln_default]
+Compiling architecture behavioral of entity xil_defaultlib.sraN [sran_default]
+Compiling architecture behavioral of entity xil_defaultlib.srlN [srln_default]
+Compiling architecture behav of entity xil_defaultlib.multU [multu_default]
+Compiling architecture structural of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behav of entity xil_defaultlib.execute [execute_default]
+Compiling architecture behav of entity xil_defaultlib.data_mem [data_mem_default]
+Compiling architecture structural of entity xil_defaultlib.mem_stage [mem_stage_default]
+Compiling architecture behav of entity xil_defaultlib.wb_stage [wb_stage_default]
+Compiling architecture reg_arch of entity xil_defaultlib.register_file [register_file_default]
+Compiling architecture behav of entity xil_defaultlib.microprocessor [microprocessor_default]
+Compiling architecture behav of entity xil_defaultlib.microprocessor_tb
+Built simulation snapshot microprocessor_tb_behav

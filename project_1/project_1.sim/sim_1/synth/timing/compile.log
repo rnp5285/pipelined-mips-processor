@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.sim/sim_1/synth/timing/microprocessor_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-311] analyzing module instr_decode
+INFO: [VRFC 10-311] analyzing module instr_fetch
+INFO: [VRFC 10-311] analyzing module microprocessor
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sim_1/new/microprocessor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity microprocessor_tb

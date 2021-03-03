@@ -1,0 +1,49 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/andN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity andN
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/data_mem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity data_mem
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/execute.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity execute
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/fa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/instr_decode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity instr_decode
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/instr_fetch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity instr_fetch
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/instr_mem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity instr_mem
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/mem_stage.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mem_stage
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sources_1/new/microprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity microprocessor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/multiU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/orN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity orN
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/pc_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pc_reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity register_file
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/ripplecarry_fa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ripplecarry_fa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/sllN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sllN
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/sraN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sraN
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/srlN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity srlN
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/wb_stage.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity wb_stage
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/sources/xorN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity xorN
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.srcs/sim_1/new/microprocessor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity microprocessor_tb

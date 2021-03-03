@@ -1,0 +1,227 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 14660
+License: Customer
+
+Current time: 	4/16/19 2:23:25 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 40 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/WINDOWS/Sun/Java/bin;C:/WINDOWS/system32;C:/WINDOWS;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Program Files (x86)/Intel/iCLS Client/;C:/Program Files/Intel/iCLS Client/;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Users/rohan/AppData/Local/Microsoft/WindowsApps;C:/Program Files/Git/cmd;C:/Program Files/MATLAB/R2017b/bin;C:/WINDOWS/System32/OpenSSH/;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files/Apache/maven/bin;C:/Program Files/Java/jdk-11.0.1/bin/bin;C:/Program Files/PuTTY/;C:/Program Files (x86)/Wolfram Research/WolframScript/;C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem;C:/Program Files/Java/jdk-11.0.1/bin;;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	rohan
+User home directory: C:/Users/rohan
+User working directory: C:/Users/rohan/Documents/dsd2/proj1/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/rohan/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/rohan/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/rohan/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/rohan/Documents/dsd2/proj1/project_1/.Xil/Vivado-14660-marble-boi
+
+GUI allocated memory:	141 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 514 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 52 MB (+51663kb) [00:00:09]
+// [Engine Memory]: 451 MB (+320940kb) [00:00:09]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\rohan\Documents\dsd2\proj1\project_1\project_1.xpr. Version: Vivado v2017.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 57 MB (+2476kb) [00:00:13]
+// [Engine Memory]: 571 MB (+102833kb) [00:00:13]
+// [GUI Memory]: 68 MB (+9461kb) [00:00:13]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 582 MB. GUI used memory: 40 MB. Current time: 4/16/19 2:23:28 PM EDT
+// Project name: project_1; location: C:/Users/rohan/Documents/dsd2/proj1/project_1; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 768.758 ; gain = 110.305 
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a:a (cg:JFrame): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 20 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (fetch_mux.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, fetch_mux.vhd]", 2, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, fetch_mux.vhd]", 2, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// ac:q (cg:JFrame): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OPEN_DIRECTORY, "Open Directory"); // a:JButton (JPanel:JComponent, ac:q)
+dismissDialog("Unable to Open File"); // ac:q (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, fetch_mux.vhd]", 2, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as:g (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, as:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // as:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/rohan/Documents/dsd2/proj1/sources/fetch_mux.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 73 MB (+1107kb) [00:02:04]
+// [GUI Memory]: 77 MB (+207kb) [00:05:34]
+// [GUI Memory]: 82 MB (+835kb) [00:13:35]
+// [Engine Memory]: 609 MB (+9371kb) [00:20:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 42 MB. Current time: 4/16/19 2:43:53 PM EDT
+// [GUI Memory]: 86 MB (+567kb) [00:35:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/16/19 3:13:53 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/16/19 4:25:12 PM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 91 MB (+557kb) [02:28:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/16/19 4:55:13 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 74 MB. Current time: 4/16/19 5:25:13 PM EDT
+// [GUI Memory]: 96 MB (+442kb) [03:11:37]
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 58 MB. Current time: 4/16/19 5:55:13 PM EDT
+// Elapsed time: 14042 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wb_stage(behav) (wb_stage.vhd)]", 7, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wb_stage(behav) (wb_stage.vhd)]", 7, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("wb_stage.vhd", 268, 266); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/16/19 6:25:13 PM EDT
+// Elapsed time: 1061 seconds
+selectCodeEditor("wb_stage.vhd", 326, 283); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 42 MB. Current time: 4/16/19 6:55:14 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/16/19 10:12:38 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 9:18:49 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 12:47:23 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 3:34:43 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/17/19 4:04:42 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 4:34:42 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/17/19 5:17:28 PM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 5:47:31 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 6:17:32 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 6:47:32 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/17/19 7:17:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 7:47:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 8:17:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 8:47:34 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/17/19 9:17:34 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/17/19 9:47:34 PM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/18/19 1:16:51 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/18/19 11:47:47 AM EDT
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/18/19 2:31:46 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/18/19 4:04:30 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/18/19 4:34:24 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/18/19 5:04:24 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/18/19 5:34:25 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/18/19 6:04:26 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/18/19 6:34:26 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/18/19 7:04:27 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/18/19 8:17:07 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/18/19 8:47:08 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/18/19 9:17:12 PM EDT
+// Elapsed time: 183150 seconds
+selectCodeEditor("wb_stage.vhd", 288, 266); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("wb_stage.vhd", 262, 191); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 39 MB. Current time: 4/18/19 9:47:13 PM EDT
+// Elapsed time: 2723 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, microprocessor.vhd]", 2, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, microprocessor.vhd]", 2, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("microprocessor.vhd", 149, 197); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, instr_fetch(structural) (instr_fetch.vhd)]", 3, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, instr_fetch(structural) (instr_fetch.vhd)]", 3, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "microprocessor.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "instr_fetch.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "microprocessor.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("microprocessor.vhd", 148, 298); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 176, 145); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 59, 99); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 59, 99, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("microprocessor.vhd", 59, 99); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 89, 126); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 89, 126, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("microprocessor.vhd", 89, 126); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 36, 96); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 36, 96, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("microprocessor.vhd", 36, 96); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 67, 116); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("microprocessor.vhd", 67, 116, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/18/19 10:17:13 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/19/19 1:22:47 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/20/19 11:47:45 AM EDT
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/20/19 12:17:49 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/20/19 12:47:49 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/20/19 1:17:50 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/20/19 1:47:50 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/20/19 2:17:50 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/20/19 5:40:37 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/20/19 10:42:26 PM EDT
+// [GUI Memory]: 103 MB (+2062kb) [104:23:22]
+// [GUI Memory]: 109 MB (+1060kb) [104:23:42]
+// [GUI Memory]: 116 MB (+1319kb) [104:24:02]
+// [GUI Memory]: 122 MB (+186kb) [104:24:22]
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 35 MB. Current time: 4/20/19 11:12:26 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 35 MB. Current time: 4/20/19 11:42:26 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 35 MB. Current time: 4/21/19 12:35:02 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/21/19 1:05:05 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/21/19 1:35:05 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/21/19 2:05:05 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/21/19 2:35:06 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/21/19 3:05:06 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/21/19 3:35:06 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/21/19 4:05:07 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/21/19 4:35:07 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/21/19 5:05:07 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/21/19 5:35:08 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 70 MB. Current time: 4/21/19 2:45:02 PM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 4/21/19 3:15:03 PM EDT

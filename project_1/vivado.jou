@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Apr 16 14:22:49 2019
+# Process ID: 14660
+# Current directory: C:/Users/rohan/Documents/dsd2/proj1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9136 C:\Users\rohan\Documents\dsd2\proj1\project_1\project_1.xpr
+# Log file: C:/Users/rohan/Documents/dsd2/proj1/project_1/vivado.log
+# Journal file: C:/Users/rohan/Documents/dsd2/proj1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rohan/Documents/dsd2/proj1/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+remove_files  C:/Users/rohan/Documents/dsd2/proj1/sources/fetch_mux.vhd

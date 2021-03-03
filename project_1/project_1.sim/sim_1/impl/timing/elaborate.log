@@ -1,0 +1,55 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto bf012efcabd8415187872d9e023a8601 --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot microprocessor_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.microprocessor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "microprocessor_tb_time_impl.sdf", for root module "microprocessor_tb/mipsy".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "microprocessor_tb_time_impl.sdf", for root module "microprocessor_tb/mipsy".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.FDRE_default
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.instr_decode
+Compiling module simprims_ver.MUXF8
+Compiling module simprims_ver.MUXF7
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux
+Compiling module simprims_ver.FDCE_default
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.instr_fetch
+Compiling module simprims_ver.RB36_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module simprims_ver.RAMB36E1(RDADDR_COLLISION_HWCONF...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.mem_stage
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.FDCE(IS_C_INVERTED=1'b1)
+Compiling module xil_defaultlib.register_file
+Compiling module simprims_ver.IBUF
+Compiling module xil_defaultlib.wb_stage
+Compiling module simprims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=49.87...
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.microprocessor
+Compiling architecture behav of entity xil_defaultlib.microprocessor_tb
+Built simulation snapshot microprocessor_tb_time_impl
